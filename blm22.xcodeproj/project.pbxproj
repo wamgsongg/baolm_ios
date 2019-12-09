@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F07A3AB239B11B900978D8C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3AA239B11B900978D8C /* image.jpg */; };
+		6F07A3AD239B16D400978D8C /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F07A3AC239B16D400978D8C /* Orders.swift */; };
+		6F07A3AF239B172500978D8C /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F07A3AE239B172500978D8C /* OrderCell.swift */; };
+		6F07A3B5239B1EBF00978D8C /* OrderInfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F07A3B4239B1EBF00978D8C /* OrderInfs.swift */; };
+		6F07A3B7239B45DD00978D8C /* OrderInfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F07A3B6239B45DD00978D8C /* OrderInfCell.swift */; };
+		6F07A3BD239E799100978D8C /* 铁板·卤肉·三杯鸡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3BC239E799100978D8C /* 铁板·卤肉·三杯鸡.jpg */; };
+		6F07A3BF239E79A000978D8C /* 考仕茂韩国料理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3BE239E79A000978D8C /* 考仕茂韩国料理.jpg */; };
+		6F07A3C1239E79AE00978D8C /* 可鱼可饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3C0239E79AE00978D8C /* 可鱼可饭.jpg */; };
+		6F07A3C3239E79BC00978D8C /* 土耳其烤肉饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3C2239E79BC00978D8C /* 土耳其烤肉饭.jpg */; };
+		6F07A3C5239E79D500978D8C /* 江南小吃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3C4239E79D500978D8C /* 江南小吃.jpg */; };
+		6F07A3C7239E79DF00978D8C /* 老杭州面馆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3C6239E79DF00978D8C /* 老杭州面馆.jpg */; };
+		6F07A3CA239E7A0A00978D8C /* 涂鹅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3C9239E7A0A00978D8C /* 涂鹅.jpg */; };
+		6F07A3CC239E7A1000978D8C /* 申游子·老鸭粉丝馆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3CB239E7A1000978D8C /* 申游子·老鸭粉丝馆.jpg */; };
+		6F07A3CE239E7A1800978D8C /* 巴比馒头.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3CD239E7A1800978D8C /* 巴比馒头.jpg */; };
+		6F07A3D0239E7B9D00978D8C /* 蜜汁叉烧饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3CF239E7B9D00978D8C /* 蜜汁叉烧饭.jpg */; };
+		6F07A3D2239E7BA500978D8C /* 脆皮烧鸭饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3D1239E7BA500978D8C /* 脆皮烧鸭饭.jpg */; };
+		6F07A3D4239E7C1600978D8C /* 香煎鸡排饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3D3239E7C1600978D8C /* 香煎鸡排饭.jpg */; };
+		6F07A3D6239E7C1F00978D8C /* 烧汁猪扒饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F07A3D5239E7C1F00978D8C /* 烧汁猪扒饭.jpg */; };
+		6FE1D296239AD86300CAF1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D295239AD86300CAF1FA /* AppDelegate.swift */; };
+		6FE1D298239AD86300CAF1FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D297239AD86300CAF1FA /* SceneDelegate.swift */; };
+		6FE1D29F239AD86300CAF1FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE1D29D239AD86300CAF1FA /* Main.storyboard */; };
+		6FE1D2A2239AD86300CAF1FA /* blm22.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2A0239AD86300CAF1FA /* blm22.xcdatamodeld */; };
+		6FE1D2A4239AD86600CAF1FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE1D2A3239AD86600CAF1FA /* Assets.xcassets */; };
+		6FE1D2A7239AD86600CAF1FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE1D2A5239AD86600CAF1FA /* LaunchScreen.storyboard */; };
+		6FE1D2AF239AD93400CAF1FA /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2AE239AD93400CAF1FA /* Shops.swift */; };
+		6FE1D2B6239ADC8800CAF1FA /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2B2239ADC8800CAF1FA /* Recipe+CoreDataClass.swift */; };
+		6FE1D2B7239ADC8800CAF1FA /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2B3239ADC8800CAF1FA /* Recipe+CoreDataProperties.swift */; };
+		6FE1D2B8239ADC8800CAF1FA /* Shop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2B4239ADC8800CAF1FA /* Shop+CoreDataClass.swift */; };
+		6FE1D2B9239ADC8800CAF1FA /* Shop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2B5239ADC8800CAF1FA /* Shop+CoreDataProperties.swift */; };
+		6FE1D2BB239ADDBA00CAF1FA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2BA239ADDBA00CAF1FA /* CoreDataManager.swift */; };
+		6FE1D2BD239ADF9A00CAF1FA /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2BC239ADF9A00CAF1FA /* ShopCell.swift */; };
+		6FE1D2BF239ADFBA00CAF1FA /* 港式烧腊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FE1D2BE239ADFBA00CAF1FA /* 港式烧腊.jpg */; };
+		6FE1D2D1239AE38E00CAF1FA /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2CC239AE38D00CAF1FA /* SegmentViewController.swift */; };
+		6FE1D2D2239AE38E00CAF1FA /* CenterSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2CD239AE38D00CAF1FA /* CenterSegmentView.swift */; };
+		6FE1D2D3239AE38E00CAF1FA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2CE239AE38D00CAF1FA /* ThirdViewController.swift */; };
+		6FE1D2D4239AE38E00CAF1FA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2CF239AE38D00CAF1FA /* FirstViewController.swift */; };
+		6FE1D2D5239AE38E00CAF1FA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2D0239AE38D00CAF1FA /* SecondViewController.swift */; };
+		6FE1D2D7239AE84F00CAF1FA /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2D6239AE84F00CAF1FA /* Recipes.swift */; };
+		6FE1D2D9239AEC3900CAF1FA /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2D8239AEC3900CAF1FA /* RecipeCell.swift */; };
+		6FE1D2DB239AF98900CAF1FA /* ShopInfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1D2DA239AF98900CAF1FA /* ShopInfCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F07A3AA239B11B900978D8C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		6F07A3AC239B16D400978D8C /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		6F07A3AE239B172500978D8C /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		6F07A3B4239B1EBF00978D8C /* OrderInfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfs.swift; sourceTree = "<group>"; };
+		6F07A3B6239B45DD00978D8C /* OrderInfCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfCell.swift; sourceTree = "<group>"; };
+		6F07A3BC239E799100978D8C /* 铁板·卤肉·三杯鸡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "铁板·卤肉·三杯鸡.jpg"; sourceTree = "<group>"; };
+		6F07A3BE239E79A000978D8C /* 考仕茂韩国料理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "考仕茂韩国料理.jpg"; sourceTree = "<group>"; };
+		6F07A3C0239E79AE00978D8C /* 可鱼可饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "可鱼可饭.jpg"; sourceTree = "<group>"; };
+		6F07A3C2239E79BC00978D8C /* 土耳其烤肉饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "土耳其烤肉饭.jpg"; sourceTree = "<group>"; };
+		6F07A3C4239E79D500978D8C /* 江南小吃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "江南小吃.jpg"; sourceTree = "<group>"; };
+		6F07A3C6239E79DF00978D8C /* 老杭州面馆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "老杭州面馆.jpg"; sourceTree = "<group>"; };
+		6F07A3C9239E7A0A00978D8C /* 涂鹅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "涂鹅.jpg"; sourceTree = "<group>"; };
+		6F07A3CB239E7A1000978D8C /* 申游子·老鸭粉丝馆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "申游子·老鸭粉丝馆.jpg"; sourceTree = "<group>"; };
+		6F07A3CD239E7A1800978D8C /* 巴比馒头.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "巴比馒头.jpg"; sourceTree = "<group>"; };
+		6F07A3CF239E7B9D00978D8C /* 蜜汁叉烧饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜汁叉烧饭.jpg"; sourceTree = "<group>"; };
+		6F07A3D1239E7BA500978D8C /* 脆皮烧鸭饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "脆皮烧鸭饭.jpg"; sourceTree = "<group>"; };
+		6F07A3D3239E7C1600978D8C /* 香煎鸡排饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香煎鸡排饭.jpg"; sourceTree = "<group>"; };
+		6F07A3D5239E7C1F00978D8C /* 烧汁猪扒饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "烧汁猪扒饭.jpg"; sourceTree = "<group>"; };
+		6FE1D292239AD86300CAF1FA /* blm22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blm22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE1D295239AD86300CAF1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FE1D297239AD86300CAF1FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FE1D29E239AD86300CAF1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE1D2A1239AD86300CAF1FA /* blm22.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = blm22.xcdatamodel; sourceTree = "<group>"; };
+		6FE1D2A3239AD86600CAF1FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE1D2A6239AD86600CAF1FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE1D2A8239AD86600CAF1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE1D2AE239AD93400CAF1FA /* Shops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
+		6FE1D2B2239ADC8800CAF1FA /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6FE1D2B3239ADC8800CAF1FA /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6FE1D2B4239ADC8800CAF1FA /* Shop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shop+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6FE1D2B5239ADC8800CAF1FA /* Shop+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shop+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6FE1D2BA239ADDBA00CAF1FA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		6FE1D2BC239ADF9A00CAF1FA /* ShopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		6FE1D2BE239ADFBA00CAF1FA /* 港式烧腊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "港式烧腊.jpg"; sourceTree = "<group>"; };
+		6FE1D2CC239AE38D00CAF1FA /* SegmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		6FE1D2CD239AE38D00CAF1FA /* CenterSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterSegmentView.swift; sourceTree = "<group>"; };
+		6FE1D2CE239AE38D00CAF1FA /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		6FE1D2CF239AE38D00CAF1FA /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6FE1D2D0239AE38D00CAF1FA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6FE1D2D6239AE84F00CAF1FA /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		6FE1D2D8239AEC3900CAF1FA /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		6FE1D2DA239AF98900CAF1FA /* ShopInfCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInfCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE1D28F239AD86300CAF1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE1D289239AD86300CAF1FA = {
+			isa = PBXGroup;
+			children = (
+				6FE1D2B2239ADC8800CAF1FA /* Recipe+CoreDataClass.swift */,
+				6FE1D2B3239ADC8800CAF1FA /* Recipe+CoreDataProperties.swift */,
+				6FE1D2B4239ADC8800CAF1FA /* Shop+CoreDataClass.swift */,
+				6FE1D2B5239ADC8800CAF1FA /* Shop+CoreDataProperties.swift */,
+				6FE1D2CB239AE38D00CAF1FA /* SegmentVC */,
+				6FE1D294239AD86300CAF1FA /* blm22 */,
+				6FE1D293239AD86300CAF1FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE1D293239AD86300CAF1FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE1D292239AD86300CAF1FA /* blm22.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE1D294239AD86300CAF1FA /* blm22 */ = {
+			isa = PBXGroup;
+			children = (
+				6F07A3AA239B11B900978D8C /* image.jpg */,
+				6F07A3BE239E79A000978D8C /* 考仕茂韩国料理.jpg */,
+				6F07A3C0239E79AE00978D8C /* 可鱼可饭.jpg */,
+				6F07A3CF239E7B9D00978D8C /* 蜜汁叉烧饭.jpg */,
+				6F07A3D1239E7BA500978D8C /* 脆皮烧鸭饭.jpg */,
+				6F07A3CD239E7A1800978D8C /* 巴比馒头.jpg */,
+				6F07A3D3239E7C1600978D8C /* 香煎鸡排饭.jpg */,
+				6F07A3D5239E7C1F00978D8C /* 烧汁猪扒饭.jpg */,
+				6F07A3BC239E799100978D8C /* 铁板·卤肉·三杯鸡.jpg */,
+				6F07A3C9239E7A0A00978D8C /* 涂鹅.jpg */,
+				6F07A3C2239E79BC00978D8C /* 土耳其烤肉饭.jpg */,
+				6F07A3CB239E7A1000978D8C /* 申游子·老鸭粉丝馆.jpg */,
+				6F07A3C6239E79DF00978D8C /* 老杭州面馆.jpg */,
+				6F07A3C4239E79D500978D8C /* 江南小吃.jpg */,
+				6FE1D2BE239ADFBA00CAF1FA /* 港式烧腊.jpg */,
+				6FE1D2BC239ADF9A00CAF1FA /* ShopCell.swift */,
+				6FE1D2D8239AEC3900CAF1FA /* RecipeCell.swift */,
+				6FE1D295239AD86300CAF1FA /* AppDelegate.swift */,
+				6FE1D297239AD86300CAF1FA /* SceneDelegate.swift */,
+				6FE1D29D239AD86300CAF1FA /* Main.storyboard */,
+				6F07A3B4239B1EBF00978D8C /* OrderInfs.swift */,
+				6F07A3B6239B45DD00978D8C /* OrderInfCell.swift */,
+				6F07A3AE239B172500978D8C /* OrderCell.swift */,
+				6F07A3AC239B16D400978D8C /* Orders.swift */,
+				6FE1D2D6239AE84F00CAF1FA /* Recipes.swift */,
+				6FE1D2A3239AD86600CAF1FA /* Assets.xcassets */,
+				6FE1D2A5239AD86600CAF1FA /* LaunchScreen.storyboard */,
+				6FE1D2A8239AD86600CAF1FA /* Info.plist */,
+				6FE1D2A0239AD86300CAF1FA /* blm22.xcdatamodeld */,
+				6FE1D2AE239AD93400CAF1FA /* Shops.swift */,
+				6FE1D2DA239AF98900CAF1FA /* ShopInfCell.swift */,
+				6FE1D2BA239ADDBA00CAF1FA /* CoreDataManager.swift */,
+			);
+			path = blm22;
+			sourceTree = "<group>";
+		};
+		6FE1D2CB239AE38D00CAF1FA /* SegmentVC */ = {
+			isa = PBXGroup;
+			children = (
+				6FE1D2CD239AE38D00CAF1FA /* CenterSegmentView.swift */,
+				6FE1D2CC239AE38D00CAF1FA /* SegmentViewController.swift */,
+				6FE1D2CE239AE38D00CAF1FA /* ThirdViewController.swift */,
+				6FE1D2CF239AE38D00CAF1FA /* FirstViewController.swift */,
+				6FE1D2D0239AE38D00CAF1FA /* SecondViewController.swift */,
+			);
+			name = SegmentVC;
+			path = ../../Downloads/PersonalCenter/PersonalCenter/SegmentVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE1D291239AD86300CAF1FA /* blm22 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE1D2AB239AD86600CAF1FA /* Build configuration list for PBXNativeTarget "blm22" */;
+			buildPhases = (
+				6FE1D28E239AD86300CAF1FA /* Sources */,
+				6FE1D28F239AD86300CAF1FA /* Frameworks */,
+				6FE1D290239AD86300CAF1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blm22;
+			productName = blm22;
+			productReference = 6FE1D292239AD86300CAF1FA /* blm22.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE1D28A239AD86300CAF1FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = wangsong;
+				TargetAttributes = {
+					6FE1D291239AD86300CAF1FA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FE1D28D239AD86300CAF1FA /* Build configuration list for PBXProject "blm22" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE1D289239AD86300CAF1FA;
+			productRefGroup = 6FE1D293239AD86300CAF1FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE1D291239AD86300CAF1FA /* blm22 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE1D290239AD86300CAF1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F07A3CA239E7A0A00978D8C /* 涂鹅.jpg in Resources */,
+				6F07A3C3239E79BC00978D8C /* 土耳其烤肉饭.jpg in Resources */,
+				6F07A3BD239E799100978D8C /* 铁板·卤肉·三杯鸡.jpg in Resources */,
+				6F07A3CE239E7A1800978D8C /* 巴比馒头.jpg in Resources */,
+				6F07A3D0239E7B9D00978D8C /* 蜜汁叉烧饭.jpg in Resources */,
+				6FE1D2A7239AD86600CAF1FA /* LaunchScreen.storyboard in Resources */,
+				6FE1D2A4239AD86600CAF1FA /* Assets.xcassets in Resources */,
+				6FE1D2BF239ADFBA00CAF1FA /* 港式烧腊.jpg in Resources */,
+				6FE1D29F239AD86300CAF1FA /* Main.storyboard in Resources */,
+				6F07A3AB239B11B900978D8C /* image.jpg in Resources */,
+				6F07A3D4239E7C1600978D8C /* 香煎鸡排饭.jpg in Resources */,
+				6F07A3D6239E7C1F00978D8C /* 烧汁猪扒饭.jpg in Resources */,
+				6F07A3CC239E7A1000978D8C /* 申游子·老鸭粉丝馆.jpg in Resources */,
+				6F07A3C1239E79AE00978D8C /* 可鱼可饭.jpg in Resources */,
+				6F07A3BF239E79A000978D8C /* 考仕茂韩国料理.jpg in Resources */,
+				6F07A3D2239E7BA500978D8C /* 脆皮烧鸭饭.jpg in Resources */,
+				6F07A3C7239E79DF00978D8C /* 老杭州面馆.jpg in Resources */,
+				6F07A3C5239E79D500978D8C /* 江南小吃.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE1D28E239AD86300CAF1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F07A3B7239B45DD00978D8C /* OrderInfCell.swift in Sources */,
+				6FE1D2D5239AE38E00CAF1FA /* SecondViewController.swift in Sources */,
+				6FE1D2D4239AE38E00CAF1FA /* FirstViewController.swift in Sources */,
+				6F07A3AF239B172500978D8C /* OrderCell.swift in Sources */,
+				6FE1D2B7239ADC8800CAF1FA /* Recipe+CoreDataProperties.swift in Sources */,
+				6FE1D2D7239AE84F00CAF1FA /* Recipes.swift in Sources */,
+				6FE1D2B8239ADC8800CAF1FA /* Shop+CoreDataClass.swift in Sources */,
+				6FE1D296239AD86300CAF1FA /* AppDelegate.swift in Sources */,
+				6F07A3AD239B16D400978D8C /* Orders.swift in Sources */,
+				6FE1D2D1239AE38E00CAF1FA /* SegmentViewController.swift in Sources */,
+				6FE1D298239AD86300CAF1FA /* SceneDelegate.swift in Sources */,
+				6FE1D2A2239AD86300CAF1FA /* blm22.xcdatamodeld in Sources */,
+				6FE1D2DB239AF98900CAF1FA /* ShopInfCell.swift in Sources */,
+				6FE1D2AF239AD93400CAF1FA /* Shops.swift in Sources */,
+				6FE1D2D2239AE38E00CAF1FA /* CenterSegmentView.swift in Sources */,
+				6FE1D2BD239ADF9A00CAF1FA /* ShopCell.swift in Sources */,
+				6FE1D2D3239AE38E00CAF1FA /* ThirdViewController.swift in Sources */,
+				6F07A3B5239B1EBF00978D8C /* OrderInfs.swift in Sources */,
+				6FE1D2B9239ADC8800CAF1FA /* Shop+CoreDataProperties.swift in Sources */,
+				6FE1D2D9239AEC3900CAF1FA /* RecipeCell.swift in Sources */,
+				6FE1D2BB239ADDBA00CAF1FA /* CoreDataManager.swift in Sources */,
+				6FE1D2B6239ADC8800CAF1FA /* Recipe+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FE1D29D239AD86300CAF1FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE1D29E239AD86300CAF1FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE1D2A5239AD86600CAF1FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE1D2A6239AD86600CAF1FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE1D2A9239AD86600CAF1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FE1D2AA239AD86600CAF1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE1D2AC239AD86600CAF1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = blm22/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosclub.cn.edu.zucc.blm22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FE1D2AD239AD86600CAF1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = blm22/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosclub.cn.edu.zucc.blm22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE1D28D239AD86300CAF1FA /* Build configuration list for PBXProject "blm22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE1D2A9239AD86600CAF1FA /* Debug */,
+				6FE1D2AA239AD86600CAF1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE1D2AB239AD86600CAF1FA /* Build configuration list for PBXNativeTarget "blm22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE1D2AC239AD86600CAF1FA /* Debug */,
+				6FE1D2AD239AD86600CAF1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FE1D2A0239AD86300CAF1FA /* blm22.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FE1D2A1239AD86300CAF1FA /* blm22.xcdatamodel */,
+			);
+			currentVersion = 6FE1D2A1239AD86300CAF1FA /* blm22.xcdatamodel */;
+			path = blm22.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FE1D28A239AD86300CAF1FA /* Project object */;
+}

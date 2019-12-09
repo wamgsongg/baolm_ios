@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Order" representedClassName="Order" syncable="YES" codeGenerationType="class">
+        <attribute name="order_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order_inf" optional="YES" attributeType="String"/>
+        <attribute name="order_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="order_status" optional="YES" attributeType="String"/>
+        <attribute name="order_time" optional="YES" attributeType="String"/>
+        <attribute name="shop_image" optional="YES" attributeType="String"/>
+        <attribute name="shop_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrderInf" representedClassName="OrderInf" syncable="YES" codeGenerationType="class">
+        <attribute name="order_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order_inf_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipe_name" optional="YES" attributeType="String"/>
+        <attribute name="recipe_number" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipe_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="shop_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES">
+        <attribute name="recipe_discount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="recipe_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipe_image" optional="YES" attributeType="String"/>
+        <attribute name="recipe_name" optional="YES" attributeType="String"/>
+        <attribute name="recipe_notice" optional="YES" attributeType="String"/>
+        <attribute name="recipe_price" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipe_remain" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipe_status" optional="YES" attributeType="String"/>
+        <attribute name="sale" optional="YES" attributeType="String"/>
+        <attribute name="shop_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Shop" representedClassName="Shop" syncable="YES">
+        <attribute name="shop_address" optional="YES" attributeType="String"/>
+        <attribute name="shop_core" optional="YES" attributeType="String"/>
+        <attribute name="shop_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="shop_name" optional="YES" attributeType="String"/>
+        <attribute name="shop_notice" optional="YES" attributeType="String"/>
+        <attribute name="shop_pwd" optional="YES" attributeType="String"/>
+        <attribute name="shop_status" optional="YES" attributeType="String"/>
+        <attribute name="shop_tel" optional="YES" attributeType="String"/>
+        <attribute name="shop_trademark" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Recipe" positionX="-18" positionY="99" width="128" height="193"/>
+        <element name="Shop" positionX="-45" positionY="0" width="128" height="178"/>
+        <element name="Order" positionX="-27" positionY="126" width="128" height="148"/>
+        <element name="OrderInf" positionX="-18" positionY="135" width="128" height="133"/>
+    </elements>
+</model>
